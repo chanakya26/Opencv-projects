@@ -22,7 +22,7 @@ def draw_lines(img,lines):
     return img
 
 try:
-    image = mpimg.imread("lane4.jpg")
+    image = mpimg.imread("lane3.jpg")
 except FileNotFoundError as error:
     print("Error opening the file")
 
